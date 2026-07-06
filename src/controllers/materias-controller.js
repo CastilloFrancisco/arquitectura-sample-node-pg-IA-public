@@ -7,7 +7,7 @@ const currentService = new MateriasService();
 
 router.get('', async (req, res) => {
     try {
-        console.log(MateriasController.get);
+        console.log(`MateriasController.get`);
 
         const returnArray = await currentService.getAllAsync();
 

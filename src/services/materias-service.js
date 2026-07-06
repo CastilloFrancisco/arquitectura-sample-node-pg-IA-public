@@ -8,7 +8,7 @@ export default class MateriasService {
     }
 
     getAllAsync = async () => {
-        console.log(MateriasService.getAllAsync());
+        console.log(`MateriasService.getAllAsync()`);
 
         const returnArray = await this.MateriasRepository.getAllAsync();
 

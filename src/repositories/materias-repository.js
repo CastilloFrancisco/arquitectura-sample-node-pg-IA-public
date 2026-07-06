@@ -8,7 +8,7 @@ export default class MateriasRepository {
     }
 
     getAllAsync = async () => {
-        console.log(MateriasRepository.getAllAsync());
+        console.log(`MateriasRepository.getAllAsync()`);
 
         const sql = `SELECT * FROM materias`;
 
