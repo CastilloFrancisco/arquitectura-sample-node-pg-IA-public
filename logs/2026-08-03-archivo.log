@@ -1,0 +1,312 @@
+2026-08-03T11:30:00.203Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:30:10.920Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:30:14.610Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:30:19.851Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async CursosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:18:16)
+    at async CursosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:17:30)
+    at async AlumnosService.validarCursoExiste (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:71:23)
+    at async AlumnosService.createAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:45:9)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:69:23
+
+2026-08-03T11:30:26.832Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:47.542Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:49.252Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:50.529Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:52.028Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:53.365Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:54.801Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:56.084Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:57.333Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:30:58.934Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:32:00.748Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:32:03.789Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:32:05.185Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:39:47.187Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async CursosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:12:16)
+    at async CursosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:11:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:11:29
+
+2026-08-03T11:39:54.637Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async CursosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/cursos-repository.js:18:16)
+    at async CursosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/cursos-service.js:17:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/cursos-controller.js:26:30
+
+2026-08-03T11:40:36.078Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:41:24.143Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:41:25.842Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:41:27.052Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:41:50.923Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryAll (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:24:19)
+    at async AlumnosRepository.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:12:16)
+    at async AlumnosService.getAllAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:30:29)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:39:29
+
+2026-08-03T11:41:55.847Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:46:34.408Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:48:45.374Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:48:47.443Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:48:49.063Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:49:07.650Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
+2026-08-03T11:49:10.358Z: error - (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+Stack Trace:
+error: (ENOTFOUND) tenant/user postgres.eozcrunsuompyeapymze not found
+    at C:\Users\49437690\arquitectura-sample-node-pg-IA-public\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DbPg.queryOne (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/db-pg.js:36:19)
+    at async AlumnosRepository.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/repositories/alumnos-repository.js:18:16)
+    at async AlumnosService.getByIdAsync (file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/services/alumnos-service.js:37:30)
+    at async file:///C:/Users/49437690/arquitectura-sample-node-pg-IA-public/src/controllers/alumnos-controller.js:54:30
+
